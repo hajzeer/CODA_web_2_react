@@ -1,16 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade';
 
 
 
 
-const Services = ({ services }) => {
+class Services extends Component {
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        
-    }
-    
+    render(){ 
+        const {services} = this.props;
         const serviceList = services.map(service => {      
             return(            
             <div className="service" key={service.id}>
@@ -24,10 +21,9 @@ const Services = ({ services }) => {
                                 alt={service.title}                           
                             />
                             <h1> { service.title }   </h1>                            
-                                <form onClick={handleSubmit}  className="ser-disc-form">
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus eget lectus vel commodo. Cras non dolor pellentesque, gravida velit non, auctor quam. Fusce blandit posuere diam. Nullam sagittis metus a eleifend condimentum. Aliquam auctor tristique pretium. Suspendisse a lectus sit amet justo semper sodales. </p>
-                                    <button>read more</button>
-                                </form>                                                            
+                                <div className="ser-disc-form">
+                                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus eget lectus vel commodo. Cras non dolor pellentesque, gravida velit non, auctor quam. Fusce blandit posuere diam. Nullam sagittis metus a eleifend condimentum. Aliquam auctor tristique pretium. Suspendisse a lectus sit amet justo semper sodales. </p>                                   
+                                </div>                                                            
                             <br/>                            
                         </form>                                     
                     </div>                   
@@ -41,6 +37,6 @@ const Services = ({ services }) => {
                 {serviceList}
             </div>
         )
-    
+    }
 }
 export default Services;
