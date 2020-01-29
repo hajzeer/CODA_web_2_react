@@ -23,7 +23,12 @@ body{
     margin-bottom: 30%;
     text-align: center;
     width: 45%;
-    
+
+
+}
+
+h1{
+    font-size: 3vw;
 }
 
 .service-img{
@@ -46,6 +51,7 @@ body{
 }
 .service-disc{
     text-align: center;
+    
 }
 .ser-disc-form{
     text-align: justify;
@@ -55,15 +61,9 @@ body{
     margin-top: auto;
     margin-bottom: 50px;
     width: 80%;
-}
-button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    width: 60%;
     
 }
+
 .contact{
     background-color: whitesmoke;
     display: block;
@@ -78,9 +78,10 @@ button{
 
 ul{
     list-style-type: none;
+    font-size: 1vw;
+    text-align: justify;
 }
-.b1{
-    
+button{
     margin-left: 1%;
     margin-right: 15%;
     margin-top: 12%;
@@ -88,13 +89,33 @@ ul{
     width: 25%;
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    font-size: 1.5vw;
 }
 .footer-title{
+    display: block;
     text-align: center;
-    margin-top: -400px;
+    margin-top: -50px;
 }
 .partners-logo{
-    width: 5%;
-    margin-left: 30%;
+    width: 7%;
+    margin-left: 19%;
+    margin-bottom: 15%;
+}
+.footer-maxinvest{
+    width: 15%;
+    margin-left: 11%;
+    margin-bottom: 15%;
+}
+
+.footer-creator{
+    display: block;
+    background-color: whitesmoke;
+    color: grey;
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 1vw;
+    
+}
+p{
+    font-size:1vw;
 }

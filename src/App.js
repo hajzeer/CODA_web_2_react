@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 
-import './App.css';
 
-import netia from './media/netia logo.png';
-import orange from './media/orange logo.png';
+import './App.css';
 
 import Services from './Services.js';
 import Menu from './Menu.js';
+import Footer from './Footer.js';
 
 import kamera from './media/kamera.jpg';
 import ppoz from './media/ppoz.jpg';
 import internet from './media/internet.jpeg';
 import domofon from './media/domofon.jpg';
+
+
 
 class App extends Component {
 
@@ -34,13 +35,7 @@ class App extends Component {
           <Services services={this.state.services} />
         </div>
         <div>
-          <div className="footer-title">
-            <h1>Nasi partnerzy:</h1>
-          </div>
-          <div>
-            <img className="partners-logo" src={netia} alt="netia"/>
-            <img className="partners-logo" src={orange} alt="orange"/>
-          </div>
+          <Footer/>
         </div> 
       </div>
     )
