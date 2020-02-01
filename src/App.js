@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Fade from 'react-reveal/Fade';
 
 import './App.css';
 
@@ -12,6 +12,12 @@ import ppoz from './media/ppoz.jpg';
 import internet from './media/internet.jpeg';
 import domofon from './media/domofon.jpg';
 
+import netia from './media/netia logo.png';
+import orange from './media/orange logo.png';
+import maxinvest from './media/maxinvest logo.png';
+
+import logo from './media/logo.jpg';
+
 
 
 class App extends Component {
@@ -22,12 +28,27 @@ class App extends Component {
       {title: 'PPOŻ.',img:ppoz,disc:'', id:1 },
       {title: 'INTERNET',img:internet,disc:'', id:2},
       {title: 'MONTAŻ DOMOFONÓW',img:domofon,disc:'', id:3},
+    ],
+    partners: [
+      {name: "maxinvest", img:maxinvest, id:0},
+      {name: "netia",img: netia, id:1},
+      {name:"orange", img: orange, id:2},
     ]
   }
 
   render() {
     return(
       <div className="App">
+        <Fade top>
+          <div>
+            <img
+              className="logo"
+              src={logo}
+              alt="logo"
+            />
+          </div>
+        </Fade>
+
         <div>
           <Menu/>
         </div>
@@ -35,7 +56,7 @@ class App extends Component {
           <Services services={this.state.services} />
         </div>
         <div>
-          <Footer/>
+          <Footer partners={this.state.partners}/>
         </div> 
       </div>
     )
