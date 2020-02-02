@@ -15,6 +15,8 @@ import domofon from './media/domofon.jpg';
 import netia from './media/netia logo.png';
 import orange from './media/orange logo.png';
 import maxinvest from './media/maxinvest logo.png';
+import kaufland from './media/Kaufland logo.png';
+import koala from './media/koala logo.jpg';
 
 import logo from './media/logo.jpg';
 
@@ -30,9 +32,11 @@ class App extends Component {
       {title: 'MONTAŻ DOMOFONÓW',img:domofon,disc:'', id:3},
     ],
     partners: [
-      {name: "maxinvest", img:maxinvest, id:0},
-      {name: "netia",img: netia, id:1},
-      {name:"orange", img: orange, id:2},
+      {name: 'maxinvest', img:maxinvest, id:0},
+      {name:'orange', img: orange, id:1},
+      {name: 'netia',img: netia, id:2},
+      {name:'kaufland', img: kaufland, id:3},
+      {name:'koala', img: koala, id:4},
     ]
   }
 

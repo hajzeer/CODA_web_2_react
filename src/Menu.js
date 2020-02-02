@@ -24,11 +24,11 @@ class Menu extends Component {
             <div>                            
                 <img
                     className="contact-button"
-                   src={contactbutton}
-                   alt="contact-button"
-                   onClick={this.handleSubmit}
+                    src={contactbutton}
+                    alt="contact-button"
+                    onClick={this.handleSubmit}
                 />       
-                                            
+
                 <Fade right when={this.state.show}>
                     <div className="contact">            
                         <ul className="list-1">
