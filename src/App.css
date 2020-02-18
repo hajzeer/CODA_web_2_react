@@ -2,73 +2,66 @@ body{
     background-image: url("media/back3.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    
-    
 }
 
-.logo{    
+.logo{
     margin-right: 1%;
     margin-left:1%;
     margin-top: 5px;
     width: 367px;
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
 
 .service{
-    
-    
     margin-left: auto;
     margin-right: auto;
-    
-    margin-bottom: 400px;
+    margin-bottom: 650px;
+    margin-top: 150px;
     text-align: center;
     max-width: 600px;
-    max-height: 1200px;
-    
-    padding: 10%;
 }
 
 h1{
-    font-size: 150%;
+    font-size: 230%;
 }
-
-
 
 .service-img{
-    
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.7), 0 10px 30px 0 rgba(0, 0, 0, 0.7);
 }
-.service-form{
-    background-color: whitesmoke;
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
+
+
 .service-disc{
     text-align: center;
-    
 }
+
 .ser-disc-form{
+
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8%;
-    max-width: 80%;
-    max-height: 150px;
-    
+    margin-top: -55%;
+    max-width: 95%;
+    color: white;
+    font-family: 'Verdana';
 }
 
+.ser-disc-form p{
+    font-size: 15px;
+}
 .contact{
     background-color: whitesmoke;
-    
+    padding: 10px;
     margin-left: 150px;
     margin-right: auto;
     margin-bottom: auto;
     z-index: 2;
     position: fixed;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
 
 ul{
@@ -77,9 +70,9 @@ ul{
     font-size: 100%;
     padding: 10px;
 }
+
 .contact-button{
-    margin-left: 1%;
-    margin-right: 2%;
+    padding: 10px;
     margin-bottom: auto;
     max-width: 100px;
     position: fixed;
@@ -87,9 +80,8 @@ ul{
     z-index: 2;
     animation: rotation 2s;
     animation-iteration-count:infinite;
-    
-  
 }
+
 @keyframes rotation {
     0% {
             transform: rotate(0deg);
@@ -108,37 +100,41 @@ ul{
 
 .footer{
   text-align: center;
-  margin-top: -350px;
+  margin-bottom: 25px;
+  max-height: 600px;
+  background-color: whitesmoke;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 25px 0 rgba(0, 0, 0, 0.6);
 }
+
 .partners-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
     margin-bottom: 50px;
 
 }
 .footer-title{
-    align-self: center;
-    margin-bottom: 5%;
     font-size: 200%;
+    padding: 15px;
 }
 .partners{
-    flex-basis: 20%;
+    flex-basis: 30%;
     align-self: center;
-    
-    
-    
 
 }
 .footer-img{
-    max-width: 45%;
-    max-height: 45%;
-
-    
-    
+    max-width: 60%;
+    max-height: 100px;
+    filter: grayscale(100%);
 }
-p{
-    font-size: 110%;
+
+.footer-designer{
+    padding: 10px;
+    font-size: 60%;
+}
+.footer-logo{
+    width: 15%;
 }

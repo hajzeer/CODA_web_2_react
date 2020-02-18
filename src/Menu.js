@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade';
-//import Pulse from 'react-reveal/Pulse';
+
 
 import contactbutton from './media/kontakt button.png';
 
@@ -12,38 +12,37 @@ class Menu extends Component {
         };
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-    
+
     handleSubmit = (e) => {
         e.preventDefault();
         this.setState({show: !this.state.show})
-        
+
     }
 
     render(){
         return(
-            <div>                            
+            <div>
                 <img
                     className="contact-button"
                     src={contactbutton}
                     alt="contact-button"
                     onClick={this.handleSubmit}
-                />       
+                />
 
                 <Fade right when={this.state.show}>
-                    <div className="contact">            
+                    <div className="contact">
                         <ul className="list-1">
-                            <li>Grupa CODA  </li>
-                            <li>Chrobrego 1/1A 41-500 Chorzów</li>
+                            <li>Grupa CODA Kamil Rzychoń</li>
+                            <br/>
+                            <li>ul. Bolesłąwa Chrobrego 1/1A<br/>41-500 Chorzów</li>
+                            <br/>
+                            <li>Kamil Rzychoń</li>
+                            <li>kamil@grupacoda.pl</li>
+                            <li>+48 518 781 784</li>
                         </ul>
-                        <ul>
-                            <li>Kamil </li>              
-                            <li>kamil@codagroup.pl</li>
-                            <li>+48 123-456-789</li>
-                        </ul>                
-                    </div>            
+                    </div>
                 </Fade>
-                
-          </div>         
+          </div>
         )
     }
 

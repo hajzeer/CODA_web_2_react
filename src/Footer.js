@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import Fade from 'react-reveal/Fade';
+
+import logo from './media/logo.jpg';
 
 
 class Footer extends Component {
@@ -19,6 +22,7 @@ class Footer extends Component {
         });
 
         return(
+            <Fade bottom>
             <div className="footer">
                 <div>
                     <h1  className="footer-title">Nasi partnerzy:</h1>
@@ -26,7 +30,22 @@ class Footer extends Component {
                 <div className="partners-list">    
                     {partnerList}
                 </div>
+                <div className="footer-designer">
+                    <img
+                        className="footer-logo"
+                        src={logo}
+                        alt="logo"
+                    />
+                    <br/>
+                    Polityka prywatności:
+                    <br/>
+                    © 2020  Designed by Krzysztof Hajder for Grupa CODA Kamil Rzychoń
+                    <br/>
+                    All rights reserved
+                </div>
             </div>
+            </Fade>
+
 
         )
     }
