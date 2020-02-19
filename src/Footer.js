@@ -27,7 +27,7 @@ class Footer extends Component {
                 <div>
                     <h1  className="footer-title">Nasi partnerzy:</h1>
                 </div>
-                <div className="partners-list">    
+                <div className="partners-list">
                     {partnerList}
                 </div>
                 <div className="footer-designer">

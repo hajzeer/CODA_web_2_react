@@ -1,5 +1,5 @@
 body{
-    background-image: url("media/back3.jpeg");
+    background-image: url("media/back1.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -8,7 +8,7 @@ body{
     margin-right: 1%;
     margin-left:1%;
     margin-top: 5px;
-    width: 367px;
+    max-width: 30%;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -17,26 +17,20 @@ body{
     margin-right: auto;
     margin-bottom: 650px;
     margin-top: 150px;
-    text-align: center;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 h1{
-    font-size: 230%;
+    font-size: 140%;
 }
 
 .service-img{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.7), 0 10px 30px 0 rgba(0, 0, 0, 0.7);
-}
-
-
-
-.service-disc{
-    text-align: center;
 }
 
 .ser-disc-form{
@@ -44,14 +38,14 @@ h1{
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -55%;
-    max-width: 95%;
+    margin-top: -210px;
+    max-width: 90%;
     color: white;
     font-family: 'Verdana';
 }
 
 .ser-disc-form p{
-    font-size: 15px;
+    font-size: 95%;
 }
 .contact{
     background-color: whitesmoke;
@@ -74,12 +68,14 @@ ul{
 .contact-button{
     padding: 10px;
     margin-bottom: auto;
-    max-width: 100px;
+    margin-top: 80px;
+    max-width: 80px;
     position: fixed;
     cursor: pointer;
     z-index: 2;
     animation: rotation 2s;
     animation-iteration-count:infinite;
+    filter: grayscale(100%);
 }
 
 @keyframes rotation {
@@ -103,8 +99,8 @@ ul{
   margin-bottom: 25px;
   max-height: 600px;
   background-color: whitesmoke;
-  margin-left: 15px;
-  margin-right: 15px;
+
+  width: 100%;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 25px 0 rgba(0, 0, 0, 0.6);
 }
 

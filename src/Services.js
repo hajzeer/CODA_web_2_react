@@ -7,7 +7,6 @@ import Fade from 'react-reveal/Fade';
 class Services extends Component {
 
 
-
     render(){
         const {services} = this.props;
         const serviceList = services.map(service => {

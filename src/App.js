@@ -28,17 +28,17 @@ class App extends Component {
   state = {
     services: [
       {title: 'MONITORING',img:kamera,
-        disc:'Poczuj się bezpiecznie i trzymaj pieczę nad swoim majątkiem z dowolnego miejsca na ziemi, z monitoringiem który założymy dla Ciebie z najwyższą jakością',
+        disc:'Kamery są podłączone do sieci wiec możesz sprawdzać je w dowolnym czasie i dowolnym miejscu. Czuj się bezpiecznie z monitoringiem który założymy dla Ciebie z najwyższą jakością',
         id:0 },
 
       {title: 'PPOŻ.',img:ppoz,
-          disc:'Nie czekaj na niekrzystny rozwój wypadków, zamontuj usługi PPOŻ już dziś i ciesz się na codzień spokojem i bezpieczeństwem swojego domu lub biura',
+          disc:'Nie czekaj na niekorzystny rozwój wypadków, zamontuj usługi ochrony przeciwpożarowej PPOŻ już dziś i ciesz się na codzień bezpieczeństwem swojego domu lub biura',
           id:1 },
       {title: 'INTERNET',img:internet,
-          disc:'Jest to dziedzina, w której możemy pochwalić się największym doświadczeniem. Wszyscy z naszych zleceniodawców zaufali naszej jakości pracy, Ty również możesz nam zaufać',
+          disc:'Jest to dziedzina, w której możemy pochwalić się największym doświadczeniem. Wszyscy z naszych zleceniodawców zaufali naszej jakości pracy. Ty również możesz nam powierzyć stworzenie własnej sieci lokalnej, możesz nam zaufać',
           id:2 },
       {title: 'DOMOFONY',img:domofon,
-         disc:'Jesteś właścicielem kamienicy, lub należysz do zarządu wspólnoty? Zaufało nam już wielu właścicieli kamienic w Chorzowie oraz Siemianowicach Śląskich. Dołącz do tego grona już dziś', 
+         disc:'Jesteś właścicielem kamienicy, lub należysz do zarządu wspólnoty? Zaufało nam już wielu właścicieli kamienic w Chorzowie oraz Siemianowicach Śląskich. Dołącz do tego grona już dziś',
          id:3 },
     ],
     partners: [
