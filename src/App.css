@@ -34,19 +34,27 @@ h1{
 
 
 .ser-disc-form{
-
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -195px;
+    margin-top: -10em;
     max-width: 95%;
     color: white;
     font-family: 'Verdana';
 }
 
 .ser-disc-form p{
-    font-size: 95%;
-    min-width: 250px;
+    font-size: 3vw;
+    
+}
+@media only screen and (min-width: 768px)  {
+    .ser-disc-form p{
+        font-size: 100%;
+        
+    }
+    .ser-disc-form{
+        margin-top: -15em;
+    }
 }
 .contact{
     background-color: whitesmoke;
@@ -77,9 +85,7 @@ ul{
     animation-iteration-count:infinite;
     filter: brightness(30%);
 }
-.button1 {
-    width: 100%;
-}
+
 
 @keyframes rotation {
     0% {
