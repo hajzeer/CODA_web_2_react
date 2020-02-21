@@ -127,7 +127,6 @@ ul{
 .footer-img{
     max-width: 20vw;
     max-height: 100px;
-    filter: grayscale(100%);
 }
 
 .footer-designer{
