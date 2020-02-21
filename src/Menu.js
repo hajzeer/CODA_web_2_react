@@ -28,7 +28,6 @@ class Menu extends Component {
                     alt="contact-button"
                     onClick={this.handleSubmit}
                 />
-
                 <Fade right when={this.state.show}>
                     <div className="contact">
                         <ul className="list-1">
