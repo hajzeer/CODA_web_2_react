@@ -1,9 +1,9 @@
 
 body{
-    background-image: url("media/mobile back.jfif");
-        background-size: cover;
-        background-attachment: fixed;
-        background-origin: border-box;
+    background-image: url("media/back.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .logo{
@@ -59,7 +59,8 @@ h1{
         background-image: url("media/back.jpeg");
         background-size: cover;
         background-attachment: fixed;
-        background-origin: border-box;
+        background-repeat: no-repeat;
+
     }
 
 }
