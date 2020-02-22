@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Fade from 'react-reveal/Fade';
 
 import logo from './media/logo.jpg';
 
@@ -22,7 +21,6 @@ class Footer extends Component {
         });
 
         return(
-            <Fade bottom>
             <div className="footer">
                 <div>
                     <h1  className="footer-title">Nasi partnerzy:</h1>
@@ -44,7 +42,6 @@ class Footer extends Component {
                     All rights reserved
                 </div>
             </div>
-            </Fade>
 
 
         )

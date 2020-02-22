@@ -1,7 +1,9 @@
+
 body{
-    background-image: url("media/back.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url("media/mobile back.jfif");
+        background-size: cover;
+        background-attachment: fixed;
+        background-origin: border-box;
 }
 
 .logo{
@@ -45,16 +47,21 @@ h1{
 
 .ser-disc-form p{
     font-size: 3vw;
-    
 }
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 700px)  {
     .ser-disc-form p{
         font-size: 100%;
-        
     }
     .ser-disc-form{
         margin-top: -15em;
     }
+    body{
+        background-image: url("media/back.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-origin: border-box;
+    }
+
 }
 .contact{
     background-color: whitesmoke;
