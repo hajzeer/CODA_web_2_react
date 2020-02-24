@@ -1,8 +1,8 @@
 
 body{
     background-image: url("media/back.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 200% 100%;
+    background-attachment: fixed !important;
     background-repeat: no-repeat;
 }
 
