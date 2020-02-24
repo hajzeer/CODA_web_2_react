@@ -1,10 +1,13 @@
 
-body{
-    background-image: url("media/back.jpeg");
-    background-size: 200% 100%;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat;
+@media only screen and (max-width: 700px) {
+    body{
+        background-image: url("media/back.jpeg");
+        background-size: 400% 100%;
+        background-attachment: fixed !important;
+        background-repeat: no-repeat;
+    }
 }
+
 
 .logo{
     margin: 5px 5px;
