@@ -34,10 +34,8 @@ class Menu extends Component {
                             <li>Grupa CODA Kamil Rzychoń</li>
                             <br/>
                             <li>ul. Bolesława Chrobrego 1/1A<br/>41-500 Chorzów</li>
-                            <br/>
-                            <li>Kamil Rzychoń</li>
-                            <li>kamil@grupacoda.pl</li>
-                            <li>+48 518781784</li>
+                            <li><p>kamil@grupacoda.pl</p></li>
+                            <li><p>518-781-784</p></li>
                         </ul>
                     </div>
                 </Fade>

@@ -1,7 +1,6 @@
 
-@media only screen and (max-width: 700px) {
-    body:before {
-        content: "";
+    body::before {
+        content: url("media/back.jpeg");
         display: block;
         position: fixed;
         left: 0;
@@ -16,12 +15,12 @@
       }
     body{
         background-image: url("media/back.jpeg");
-        background-size: 400%;
+        background-size: 100%;
         background-attachment: fixed !important;
-        background-position: fixed;
+        background-repeat: no-repeat;
         background-color: #e6e6e6;
     }
-}
+
 
 
 .logo{
