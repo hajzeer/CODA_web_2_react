@@ -2,9 +2,10 @@
 @media only screen and (max-width: 700px) {
     body{
         background-image: url("media/back.jpeg");
-        background-size: 400% 100%;
+        background-size: 400%;
         background-attachment: fixed !important;
-        background-repeat: no-repeat;
+        background-position: fixed;
+        background-color: #e6e6e6;
     }
 }
 

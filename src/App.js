@@ -22,7 +22,6 @@ import impresjanet from './media/impresjanet logo.png';
 import logo from './media/logo.jpg';
 
 
-
 class App extends Component {
 
   state = {
