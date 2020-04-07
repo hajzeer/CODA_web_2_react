@@ -1,25 +1,26 @@
 
-    body::before {
-        content: url("media/back.jpeg");
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100%;
-        z-index: -10;
-        background: url("media/back.jpeg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }
-    body{
-        background-image: url("media/back.jpeg");
-        background-size: 100%;
-        background-attachment: fixed !important;
-        background-repeat: no-repeat;
-        background-color: #e6e6e6;
-    }
+body::before {
+    content: url("media/back.jpeg");
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -10;
+    background: url("media/back.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    background-image: url("media/back.jpeg");
+    background-size: 100%;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-color: #e6e6e6;
+}
 
 
 
@@ -90,6 +91,10 @@ h1{
     z-index: 2;
     position: fixed;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.company__name {
+    font-weight: 700;
 }
 
 ul{

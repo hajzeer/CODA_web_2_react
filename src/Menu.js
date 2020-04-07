@@ -31,11 +31,11 @@ class Menu extends Component {
                 <Fade right when={this.state.show}>
                     <div className="contact">
                         <ul className="list-1">
-                            <li>Grupa CODA Kamil Rzychoń</li>
+                            <li><span className="company__name">Grupa CODA</span></li>
                             <br/>
                             <li>ul. Bolesława Chrobrego 1/1A<br/>41-500 Chorzów</li>
                             <li><p>kamil@grupacoda.pl</p></li>
-                            <li><p>518-781-784</p></li>
+                            <li><p>518 781 784</p></li>
                         </ul>
                     </div>
                 </Fade>
