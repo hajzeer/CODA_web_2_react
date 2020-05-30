@@ -103,6 +103,11 @@ ul{
     font-size: 100%;
     padding: 10px;
 }
+.contact__data{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
 
 .contact-button{
     padding: 10px;

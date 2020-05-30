@@ -33,9 +33,11 @@ class Menu extends Component {
                         <ul className="list-1">
                             <li><span className="company__name">Grupa CODA</span></li>
                             <br/>
-                            <li>ul. Bolesława Chrobrego 1/1A<br/>41-500 Chorzów</li>
-                            <li><p>kamil@grupacoda.pl</p></li>
-                            <li><p>518 781 784</p></li>
+                            <li><a className="contact__data" href="https://goo.gl/maps/b6dzvJTXp7DhXcL18">ul. Bolesława Chrobrego 1/1A<br/>41-500 Chorzów</a></li>
+                            <br/>
+                            <li><a className="contact__data" href="mailto: kamil@grupacoda.pl">kamil@grupacoda.pl</a></li>
+                            <br/>
+                            <li><a className="contact__data" href="tel: +48 518 781 784">518 781 784</a></li>
                         </ul>
                     </div>
                 </Fade>
